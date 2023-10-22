@@ -84,7 +84,7 @@ const AddProduct = () => {
   return (
     <div>
       <div className="bg-[#F4F3F0] p-24">
-        <h2 className="text-3xl font-extrabold text-amber-300 text-center">
+        <h2 className="text-3xl font-extrabold text-red-700 text-center">
           Add Your Products
         </h2>
         <form onSubmit={handleBrandProducts}>
@@ -221,7 +221,7 @@ const AddProduct = () => {
           <input
             type="submit"
             value="Add Products"
-            className="btn btn-block bg-amber-200"
+            className="btn btn-block bg-red-700 text-white hover:bg-green-700"
           />
         </form>
       </div>
